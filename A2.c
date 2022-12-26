@@ -1,3 +1,4 @@
+//write a program to print total seconds in a given time
 #include <stdio.h>
 int main()
 {
