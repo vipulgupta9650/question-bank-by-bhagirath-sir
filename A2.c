@@ -1,12 +1,24 @@
-//program to print total seconds in a given time
+//check if the alphabet is upper case or lower case without using <ctype.h>
+
 #include <stdio.h>
 int main()
 {
-int h,m,s;//here h reperesent hour , m represent minute , s represent seconds
-printf("enter the hours , minutes and seconds");
-scanf("%d%d%d",&h,&m,&s);
-int total_seconds= (3600*h+60*m+s);
-printf("total seconds in %d hours %d minutes and %d seconds is %d",h,m,s,total_seconds);
+    char ch;
+    printf("enter the character");
+    ch=getchar();
+    if(ch>=65 && ch<=90)
+    {
+        printf("entered character is an uppercase letter");
+    }
+    else if(ch>=97 &&ch<=122)
+    {
+        printf("entered character is a lowercase alphabet");
+    }
+    else 
+    {
+        printf("not an english letter");
+    }
+
 
     return 0;
 }
