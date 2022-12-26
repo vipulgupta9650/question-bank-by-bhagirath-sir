@@ -1,4 +1,4 @@
-//check if the alphabet is an uppercase letter or lowercase letter
+//check if the alphabet is an uppercase letter or lowercase letter without using <ctype.h>
 #include <stdio.h>
 int main()
 {
