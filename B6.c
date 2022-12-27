@@ -10,7 +10,7 @@ while(i<n)
 {
     if(n%i==0)
     {
-        printf("not a prime number");
+        printf("not a prime number"); //doubt:yes it is a prime number ko kaha kaise likhenge
         break;
     }
         i++;
