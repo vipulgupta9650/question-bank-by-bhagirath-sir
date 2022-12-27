@@ -1,4 +1,5 @@
 //c program to check armstrong number
+//this is wrong solution
 #include <stdio.h>
 #include <math.h>
 int main()
