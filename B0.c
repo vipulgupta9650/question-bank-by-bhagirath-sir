@@ -15,3 +15,4 @@ while(i<=n)
 printf("%d",factorial);
     return 0;
 }
+//yha se ye seekha ki printf kisi kisi cases mai loop ke baahar hee print karwana hoga
