@@ -12,9 +12,5 @@ for(i=1;i<=n;i++)
     factorial = factorial *i;
 }
 printf("\tyour factorial of the given number is %d",factorial);
-
-
-
-
  return 0;
 }
